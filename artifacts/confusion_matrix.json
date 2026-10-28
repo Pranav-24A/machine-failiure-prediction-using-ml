@@ -1,0 +1,8 @@
+{
+    "tn": 1929,
+    "fp": 3,
+    "fn": 14,
+    "tp": 54,
+    "false_negative_rate": 0.2059,
+    "false_positive_rate": 0.0016
+}

@@ -1,0 +1,41 @@
+{
+    "features": [
+        "Torque [Nm]",
+        "Rotational speed [rpm]",
+        "Power [W]",
+        "Tool wear [min]",
+        "Overstrain [min*Nm]",
+        "Temp_Ratio",
+        "Temp_Difference [K]",
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Type_L",
+        "Type_M"
+    ],
+    "scores": [
+        0.1942,
+        0.1879,
+        0.1771,
+        0.1328,
+        0.1139,
+        0.0778,
+        0.0477,
+        0.0375,
+        0.024,
+        0.004,
+        0.0032
+    ],
+    "normalized_percentage": [
+        19.42,
+        18.79,
+        17.71,
+        13.28,
+        11.39,
+        7.78,
+        4.77,
+        3.75,
+        2.4,
+        0.4,
+        0.32
+    ]
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "model": "Dummy (Stratified Baseline)",
+        "val_accuracy": 0.9307,
+        "val_precision": 0.0182,
+        "val_recall": 0.0196,
+        "val_f1": 0.0189,
+        "val_roc_auc": 0.4912,
+        "val_pr_auc": 0.0337,
+        "train_cv_f1_mean": 0.0364,
+        "train_cv_f1_std": 0.0308,
+        "fn_count": 50,
+        "fp_count": 54
+    },
+    {
+        "model": "Logistic Regression",
+        "val_accuracy": 0.8393,
+        "val_precision": 0.1558,
+        "val_recall": 0.8431,
+        "val_f1": 0.263,
+        "val_roc_auc": 0.9324,
+        "val_pr_auc": 0.442,
+        "train_cv_f1_mean": 0.2721,
+        "train_cv_f1_std": 0.0192,
+        "fn_count": 8,
+        "fp_count": 233
+    },
+    {
+        "model": "HistGradientBoosting",
+        "val_accuracy": 0.9873,
+        "val_precision": 0.8636,
+        "val_recall": 0.7451,
+        "val_f1": 0.8,
+        "val_roc_auc": 0.9581,
+        "val_pr_auc": 0.8435,
+        "train_cv_f1_mean": 0.8222,
+        "train_cv_f1_std": 0.0383,
+        "fn_count": 13,
+        "fp_count": 6
+    },
+    {
+        "model": "Random Forest",
+        "val_accuracy": 0.9887,
+        "val_precision": 0.925,
+        "val_recall": 0.7255,
+        "val_f1": 0.8132,
+        "val_roc_auc": 0.9745,
+        "val_pr_auc": 0.8611,
+        "train_cv_f1_mean": 0.8448,
+        "train_cv_f1_std": 0.0341,
+        "fn_count": 14,
+        "fp_count": 3
+    }
+]
